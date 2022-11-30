@@ -1,30 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-  <h3><b>Hello Microverse</b></h3>
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>HELLO MICROVERSE</b></h3>
 
 </div>
 
@@ -32,26 +13,37 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 Header Stying](#about-project)
-  - [🛠 Vs Code](#built-with)
-    - [Header Styling](#key-features)
+- [📖 About the Project](#How_to_use_linters_in_html/css)
+  - [🛠 Built With](#Vscode_and_github)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Lint tests](#run-tests)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Chase](#authors)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello_Microverse] <a name="Header_Styling"></a>
+# 📖 [hello_microverse] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This project will guide you when adding linters to your html/css project
 
-**[your_project__name]** is a...
+**[hello_microverse]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">VSCode and GitHub</a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">HTML/Css & GitHub</a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
@@ -98,11 +90,10 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Hello Microverse <a name="hello-microverse"></a>
 
-> Describe how a new developer could make use of your project.
+> Integrating linters to your HTML/Css project.
 
 To get a local copy up and running, follow these steps.
 
@@ -110,95 +101,49 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  git clone git@github.com:Chaseknis/Hello-Microverse.git
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+npx hint .
+npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="Innocent N."></a>
 
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Chaseknis)
+- Twitter: [@twitterhandle](https://twitter.com/chasetotheworld)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/innocent-n-200826252/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Chaseknis)
+- Twitter: [@twitterhandle](https://twitter.com/chasetotheworld)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/innocent-n-200826252/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +185,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank microverse and my coding team for the opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
